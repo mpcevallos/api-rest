@@ -1,20 +1,16 @@
 'use strict'
 
+const app = require('./mongoose')
 const app = require('./app')
-const port = process.env.PORT || 3001
+const config = require('./config')
 
-const mongoose = require('mongoose');
+mongoose.connect(config.db, (err,res) => {
+  if (err) {
+    return console.log('Error al conectarse con la base de datos: ${err}');
+  }
+  console.log('Conectado con la base de datos');
 
-// 👇️ handle uncaught exceptions
-process.on('uncaughtException', function (err) {
-  console.log(err);
-});
-
-mongoose.connect('mongodb://localhost:27017/store', { useNewUrlParser: true, useUnifiedTopology: true })
-  .then(() => {
-    console.log('Conectado a la base de datos');
+  app.listen(config.port, () => {
+    console.log(`Servidor corriendo en el puerto ${config.port}`);
   })
-
-  .catch((error) => {
-    console.log('Error al conectarse con la base de datos:', error);
-  });
+})
