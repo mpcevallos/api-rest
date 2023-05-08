@@ -3,12 +3,14 @@
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema
 
-const ProductSchema = Schema({
+const ProductSchema = new Schema({
     name: String,
     brand: String,
-    price: { type: Number, default: 0 },
-    category: { type: String,enum: ['deportes','mujer','accesorios','hombre',]},
+    price: String,
+    category: String,
     description: String
 })
+const db = {}
+db.Product = mongoose.model('store', ProductSchema, 'products')
 
-module.exports = mongoose.model('Product', ProductSchema)
+module.exports = db

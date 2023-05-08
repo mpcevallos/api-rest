@@ -1,4 +1,4 @@
-'use strict'
+/* 'use strict'
 
 const app = require('./mongoose')
 const app = require('./app')
@@ -13,4 +13,4 @@ mongoose.connect(config.db, (err,res) => {
   app.listen(config.port, () => {
     console.log(`Servidor corriendo en el puerto ${config.port}`);
   })
-})
+}) */
