@@ -1,0 +1,72 @@
+[
+{
+  "name": "Sandalias",
+  "brand": "Aldo",
+  "price": 125.00,
+  "category": "Mujer",
+  "description": "Sandalias formales con detalle metalizado" 
+},
+{
+  "name": "Camiseta Just Do It",
+  "brand": "Nike",
+  "price": 25.50,
+  "category": "Hombre",
+  "description": "Camiseta de varios colores con la marca estampada" 
+},
+{
+  "name": "Zapatos runner",
+  "brand": "Puma",
+  "price": 99.99,
+  "category": "Mujer",
+  "description": "Zapatos deportivos muy cómodos con memory foam"
+},
+{
+  "name": "Gorra",
+  "brand": "Quicksilver",
+  "price": 50.00,
+  "category": "Hombre",
+  "description": "Gorra edición limitada"
+},
+{
+  "name": "Carcasa para Iphone 14",
+  "brand": "Apple",
+  "price": 25.00,
+  "category": "Accesorios",
+  "description": "Carcasa disponible en varios colores"
+},
+{
+  "name": "Pulseras de piedras",
+  "brand": "De prati",
+  "price": 25.00,
+  "category": "Mujer",
+  "description": "Pulseras de distintos modelos basadas en piedras"
+},
+{
+  "name": "Jean",
+  "brand": "Lee",
+  "price": 58.00,
+  "category": "Hombre",
+  "description": "Jean 100% de algodon"
+},
+{
+  "name": "Reloj",
+  "brand": "Michael Kors",
+  "price": 249.99,
+  "category": "Accesorios",
+  "description": "Reloj unisex en colores gris, dorado y azul"
+},
+{
+  "name": "Apple Watch",
+  "brand": "Apple",
+  "price": 288.00,
+  "category": "Accesorios",
+  "description": "Nuevo apple watch 2023"
+},
+{
+  "name": "Leggins",
+  "brand": "Jansport",
+  "price": 49.99,
+  "category": "Deportivos",
+  "description": "Leggins para mujer"
+}
+]

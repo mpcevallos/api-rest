@@ -6,7 +6,7 @@ const bodyParser = require('body-parser')
 const app = express()
 const api = require('./routes')
 const mongoose = require('mongoose')
-const config = require('./config')
+/* const config = require('./config') */
 
 // Se definen funciones de body-parser
 app.use(bodyParser.urlencoded({ extended: false }))

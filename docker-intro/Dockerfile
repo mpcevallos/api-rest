@@ -1,4 +1,4 @@
-FROM node:14.2
+FROM node:18.16.0-alpine
 
 # Create app directory
 WORKDIR /usr/src/app
@@ -18,5 +18,5 @@ COPY . .
 # Bind your app to port 8080
 EXPOSE 3001
 
-# CMD [ "node", "server.js" ]
+#CMD [ "node", "server.js" ]
 CMD [ "node", "server_solution.js" ]
