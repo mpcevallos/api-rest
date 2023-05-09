@@ -13,7 +13,7 @@ Este documento es una guía de uso para poder instalar el API y desplegarla corr
 
 Adicionalmente en la carpeta raíz del proyecto encontramos el archivo package-lock.json y package.json donde se encuentran las dependencias requeridas por la aplicación.
 
-## Tecnologías utilizadas
+## Tecnologías utilizadas y requeridas
 
 - NodeJS v18.16.0
 - MongoDB-Community@4.2
@@ -25,12 +25,13 @@ Adicionalmente en la carpeta raíz del proyecto encontramos el archivo package-l
 2. Ejecuta el comando `npm install` para instalar todas las dependencias, esto instalará los archivos package.json y package-lock.json
 3. Ejecuta en tu terminal el comando `npm start`
 4. Prueba las funciones del app en Postman utilizando las rutas: http://localhost:3001/api/product para las peticiones GET y POST,  http://localhost:3001/api/product/id para las peticiones PUT y DELETE.
-5. Descarga los contenedores e imagenes Docker y ejecutalos utilizando Docker Desktop.
+5. Desde el folder docker-intro puedes ejecutar el app desde tu terminal comando el npm start y leerá en el puerto 3001. 
+
+## No olvidar tener descargado el cliente MongoDB Compass y Postman para probar las peticiones HTTP.
 
 ## Uso
 
 El APP RESTful se utiliza para una tienda ecommerce con el fin de poder visualizar y almacenar todos los productos existentes, ingresar nuevos productos, actualizar su información o eliminar productos.
-
 
 ## Créditos
 
