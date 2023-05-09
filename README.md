@@ -21,20 +21,20 @@ Adicionalmente en la carpeta raíz del proyecto encontramos el archivo package-l
 
 ## Instalación
 
-1. Clona el repositorio.
-2. Ejecuta el comando `npm install` para instalar todas las dependencias, esto instalará los archivos package.json y package-lock.json
-3. Ejecuta en tu terminal el comando `npm start`
-4. Prueba las funciones del app en Postman utilizando las rutas: http://localhost:3001/api/product para las peticiones GET y POST,  http://localhost:3001/api/product/id para las peticiones PUT y DELETE.
-5. Descarga la carpeta docker-intro y luego ejecuta el comando npm install para instalar las dependencias necesarias.
+1. Clona el repositorio y abre el folder en tu IDE (Recomendado VS Code).
+3. Ejecuta desde tu terminal el comando `npm install` para instalar todas las dependencias, esto creará la carpeta node-modules
+5. Ejecuta MongoDB en tu terminal escribiendo mongo y mongod, adicionalmente puedes utilizar Mongo Compass para desplegar la base de datos en el puerto localhost:27017
+6. Ejecuta en tu terminal el comando `npm start` o node app.js
+6. Prueba las funciones del app en Postman utilizando las rutas: http://localhost:3001/api/product para las peticiones GET y POST,  http://localhost:3001/api/product/id para las peticiones PUT y DELETE.
+7. Ve a la carpeta docker-intro desde la terminal con cd docker-intro y luego escribe npm install para instalar las dependencias y probar el app usando el comando node server.js
 
 ## Uso
 
-El APP RESTful se utiliza para una tienda ecommerce con el fin de poder visualizar y almacenar todos los productos existentes, ingresar nuevos productos, actualizar su información o eliminar productos.
-
+El APP RESTful es un proyecto de tienda e-Commerce Web con el fin de poder visualizar y almacenar todos los productos existentes, ingresar nuevos productos, actualizar su información o eliminar productos.
 
 ## Créditos
 
-Este proyecto fue realizado para el Bootcamp Introductorio del Master en Full Stack Web Development de ThreePoints, Ediciǿn Mayo 2023.
+Este proyecto fue realizado para el Bootcamp Introductorio del Máster en Full Stack Web Development de ThreePoints, Edición Mayo 2023.
 
 ## License
 MIT License Copyright (c) 2023
