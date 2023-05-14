@@ -27,7 +27,7 @@ Adicionalmente en la carpeta raíz del proyecto encontramos el archivo package-l
 4. Prueba las funciones del app en Postman utilizando las rutas: http://localhost:3001/api/product para las peticiones GET y POST,  http://localhost:3001/api/product/id para las peticiones PUT y DELETE.
 5. Desde el folder docker-intro puedes ejecutar el app desde tu terminal con el comando el npm start y leerá en el puerto 3001. 
 
-## No olvidar tener descargado el cliente MongoDB Compass y Postman para probar las peticiones HTTP.
+## No olvidar tener descargado MongoGB con MongoDB Compass y Postman para probar las peticiones HTTP.
 
 ## Uso
 
