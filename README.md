@@ -4,7 +4,7 @@ Este documento es una guía de uso para poder instalar el API y desplegarla corr
 
 # Descripción de ficheros 
 
-- controllers: código de muestra las funciones para ejecutar las peticiones HTTP: Get, Post, Put y Delete.
+- controllers: código que muestra las funciones para ejecutar las peticiones HTTP: Get, Post, Put y Delete.
 - db_sample: colección con 10 ficheros de productos en formato json y csv.
 - docker-intro: Dentro se encuentran los archivos Docker.
 - models: En la carpeta se encuentra un archivo .js con las constantes de la biblioteca Moongose.
@@ -22,10 +22,10 @@ Adicionalmente en la carpeta raíz del proyecto encontramos el archivo package-l
 ## Instalación
 
 1. Clona el repositorio.
-2. Ejecuta el comando `npm install` para instalar todas las dependencias, esto instalará los archivos package.json y package-lock.json
+2. Ejecuta el comando `npm install` para instalar todas las dependencias, esto instalará los archivos package.json , package-lock.json y la carpeta /node_modules
 3. Ejecuta en tu terminal el comando `npm start`
 4. Prueba las funciones del app en Postman utilizando las rutas: http://localhost:3001/api/product para las peticiones GET y POST,  http://localhost:3001/api/product/id para las peticiones PUT y DELETE.
-5. Desde el folder docker-intro puedes ejecutar el app desde tu terminal comando el npm start y leerá en el puerto 3001. 
+5. Desde el folder docker-intro puedes ejecutar el app desde tu terminal con el comando el npm start y leerá en el puerto 3001. 
 
 ## No olvidar tener descargado el cliente MongoDB Compass y Postman para probar las peticiones HTTP.
 
@@ -35,7 +35,7 @@ El APP RESTful se utiliza para una tienda ecommerce con el fin de poder visualiz
 
 ## Créditos
 
-Este proyecto fue realizado para el Bootcamp Introductorio del Master en Full Stack Web Development de ThreePoints, Ediciǿn Mayo 2023.
+Este proyecto fue realizado para el Bootcamp Introductorio del Master en Full Stack Web Development de ThreePoints, Edición Mayo 2023.
 
 ## License
 MIT License Copyright (c) 2023
